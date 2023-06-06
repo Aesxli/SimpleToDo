@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Simple To Do</string>
+    <string-array name="actiontask">
+        <item>Add a new task</item>
+        <item>Remove a task</item>
+    </string-array>
+    <string name="A">ADD</string>
+    <string name="D">DELETE</string>
+    <string name="C">CLEAR</string>
+    <string name="EThint">Type in a new task here</string>
+    <string name="EThint1">Type in the index of the task to be removed</string>
+</resources>
