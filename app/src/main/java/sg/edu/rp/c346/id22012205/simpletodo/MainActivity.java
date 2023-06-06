@@ -77,7 +77,6 @@ ArrayList<String>TaskArray;
                     Toast.makeText(MainActivity.this, "You don't have any task to remove", Toast.LENGTH_SHORT).show();
                 } else {
                     int removetask = Integer.parseInt(ETTask.getText().toString());
-                        removetask=removetask-1;
                     if (removetask>=0 && removetask<TaskArray.size()) {
                         TaskArray.remove(removetask);
                         taskadapt.notifyDataSetChanged();
